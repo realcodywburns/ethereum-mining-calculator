@@ -1,4 +1,5 @@
-# Ethereum Mining Calculator
+# Ethereum Classic Mining Calculator
+
 View live version of [Ethereum Mining Calculator](https://badmofo.github.io/ethereum-mining-calculator/).
 
 ## Calculations
