@@ -6,7 +6,7 @@ r = requests.get('https://etherchain.org/api/basic_stats').json()
 def avg(l): return sum([i for i in l])/float(len(l))
 blockTimeAvg = avg([int(b['blockTime']) for b in r['data']['blocks']])
 difficultyAvg = avg([int(b['difficulty']) for b in r['data']['blocks']])
-r = requests.get('http://coinmarketcap-nexuist.rhcloud.com/api/eth').json()
+r = requests.get('http://coinmarketcap-nexuist.rhcloud.com/api/etc').json()
 data = {
     'blockTime': blockTimeAvg,
     'difficulty': difficultyAvg,
